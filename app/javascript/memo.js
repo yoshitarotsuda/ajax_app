@@ -29,6 +29,7 @@ function post (){
         alert(`Error ${XHR.status}: ${XHR.statusText}`);
         return null;
       };
+      console.log(XHR);
       const list = document.getElementById("list");
       const formText = document.getElementById("content");
       // console.log(formText.value);
